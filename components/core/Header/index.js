@@ -7,5 +7,4 @@ export default function Header(){
    )
 }
 
-const AppHeader = styled.div`
-`
+const AppHeader = styled.div` `
