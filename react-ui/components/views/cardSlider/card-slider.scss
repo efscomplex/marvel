@@ -1,0 +1,9 @@
+.card-slider {
+      max-width:40rem;
+      .card {
+            grid-area: 2/1/3/2
+      }
+      .slider {
+            grid-area: 1/2 /2/3;
+      }
+}

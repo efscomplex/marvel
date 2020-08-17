@@ -1,0 +1,12 @@
+{
+   "testPathIgnorePatterns": [
+      "./.next/", 
+      "./node_modules/"
+   ],
+   "setupFilesAfterEnv": [
+      "./setupTests.js"
+   ],
+   "transform": {
+      "^.+\\.(js|jsx|ts|tsx)$": "./node_modules/babel-jest"
+   }
+}

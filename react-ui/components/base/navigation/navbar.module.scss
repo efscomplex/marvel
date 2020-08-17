@@ -1,0 +1,15 @@
+.navbar {
+   display: flex;
+   align-items: center;
+   transition: opacity ease .4s, height ease .4s, width ease .4s; 
+}
+.hidden {
+   opacity: 0;
+   width: 0;
+   overflow: hidden;
+}
+.nav {
+   @media screen and (min-width: 768px){
+      display:block;
+   }
+}

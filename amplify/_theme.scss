@@ -1,0 +1,31 @@
+$primary: '#ab47bc' !default;
+$secondary: '#26c6da' !default;
+$p-light: '#df78ef' !default;
+$p-dark: '#790e8b' !default;
+$s-light: '#6ff9ff' !default;
+$s-dark: '#0095a8' !default;
+$surface:' #ffffff' !default;
+$background:'#ffffff' !default;
+$error:'#b00020' !default;
+$on-primary:'#ffffff' !default;
+$on-secondary:' #000000' !default;
+$on-error: '#ffffff' !default;
+$on-surface: '#000000' !default;
+$on-background:'#000000' !default;
+
+:root{ 
+   --primary: #{$primary};
+   --secondary: #{$secondary};
+   --p-light: #{$p-light};
+   --p-dark: #{$p-dark};
+   --s-light: #{$s-light};
+   --s-dark: #{$s-dark};
+   --surface: #{$surface};
+   --background: #{$background};
+   --on-background: #{$on-background};
+   --error: #{$error};
+   --on-primary: #{$on-primary};
+   --on-secondary: #{$on-secondary};
+   --on-error: #{$on-error};
+   --on-surface: #{$on-surface};
+}

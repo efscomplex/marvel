@@ -1,0 +1,51 @@
+.section {  
+   padding-top: 2rem; 
+   padding-bottom: 2rem;
+}
+.section-xs { 
+   padding-top: 1rem; 
+   padding-bottom: 1rem;
+}
+.section-s { 
+   padding-top: 1.4rem; 
+   padding-bottom: 1.4rem;
+}
+.section-m { padding-top: 1.8rem; 
+   padding-bottom: 1.8rem;
+}
+.section-l { 
+   padding-top: 2.2rem; 
+   padding-bottom: 2.2rem;
+}
+.section-xl { 
+   padding-top: 2.4rem; 
+   padding-bottom: 2.4rem;
+}
+.section-xxl { 
+   padding-top: 2.6rem; 
+   padding-bottom: 2.8rem;
+}
+.section-huge { 
+   padding-top: 3rem; 
+   padding-bottom: 3rem;
+}
+.container { 
+   margin-left: auto;
+   margin-right:auto;
+}
+.list {
+   display: flex;
+   flex-direction: column;
+   line-height: 1.5;
+}
+.list-inline {
+   display: inline-flex;
+   flex-direction: column;
+   line-height: 1.5;
+}
+.item-items {
+   display: flex;
+   & > *:not(last-child){
+      margin-right: .8rem;
+   }
+}

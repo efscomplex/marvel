@@ -1,0 +1,38 @@
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box; }
+   
+html{
+   //width: 100%;
+   text-rendering: optimizeLegibility;
+   -webkit-font-smoothing: antialiased;
+   -moz-osx-font-smoothing: grayscale;
+   
+   body{
+      position:relative;
+      width:100%; }
+
+   a, a:hover{
+      text-decoration: none;
+      color: inherit;   }
+
+   ul{ 
+      list-style: none; 
+      padding: 0;  }   
+   li {
+      display: inline-block;
+   }
+   img {
+      max-width:100%; 
+      display: block;
+   }
+
+   ::placeholder {
+      color: inherit;
+   }
+}
+
+[attr='href']{
+   cursor: pointer
+}

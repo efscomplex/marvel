@@ -1,15 +1,31 @@
 {
-  "name": "nextjs-more",
-  "version": "0.1.0",
-  "private": true,
-  "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start"
-  },
-  "dependencies": {
-    "next": "9.5.2",
-    "react": "16.13.1",
-    "react-dom": "16.13.1"
-  }
+   "name": "nextjs-more",
+   "version": "0.1.0",
+   "private": true,
+   "scripts": {
+      "dev": "next dev",
+      "build": "next build",
+      "start": "next start",
+      "test": "jest --config ./jest.config.json",
+      "test:styled": "jest --config ./jest.config.json --roots ./react-ui/styled",
+      "test:watch": "npm run test -- --watch"
+   },
+   "dependencies": {
+      "animate.css": "^4.1.0",
+      "bootstrap": "^5.0.0-alpha1",
+      "next": "9.5.2",
+      "react": "16.13.1",
+      "react-dom": "16.13.1",
+      "react-icons": "^3.10.0"
+   },
+   "devDependencies": {
+      "@testing-library/dom": "^7.22.2",
+      "@testing-library/jest-dom": "^5.11.3",
+      "@testing-library/react": "^10.4.8",
+      "babel-plugin-macros": "^2.8.0",
+      "jest": "^26.4.0",
+      "sass": "^1.26.10",
+      "styled-components": "^5.1.1",
+      "uniqid": "^5.2.0"
+   }
 }
