@@ -4,7 +4,8 @@
 /node_modules
 /.pnp
 .pnp.js
-
+/amplify
+/react-ui
 # testing
 /coverage
 
