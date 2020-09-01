@@ -5,14 +5,19 @@ import Img from 'ui/styled/images/Img'
 
 function ShowcaseCard({thumbnail, name, id }){
    return (
-      <Card>
-         <Card.Header>
-            <Card.Text>
-               {name}
-            </Card.Text>
-         </Card.Header>
-         <Img src={thumbnail}/>
-      </Card>
+      <StyledCard>
+         <Card.Text center bg='var(--primary)' color='white'>
+            {name}
+         </Card.Text>
+         <Img width='100%' src={thumbnail}/>
+      </StyledCard>
    )
 }
+const StyledCard = styled(Card)`
+   will-change: scale;
+   transition: transform linear .35s;
+   &:hover {
+      transform: scale(1.175);
+   }
+`
 export default ShowcaseCard

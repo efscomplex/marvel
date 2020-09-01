@@ -5,7 +5,11 @@ import 'animate.css/source/animate.css'
 import '../styles/globals.scss'
 
 function MyApp({ Component, pageProps }) {
-  return <Template><Component {...pageProps} /></Template>
+	return (
+		<Template>
+			<Component {...pageProps} />
+		</Template>
+	)
 }
 
 export default MyApp
