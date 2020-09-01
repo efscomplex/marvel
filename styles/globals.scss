@@ -1,12 +1,21 @@
-@import '../amplify/all.scss';
+@import '../amplify/reset';
+@import '../amplify/utils';
 
 body {
-   margin: 0;
-   --text-mute: #C8C8C8;
-   --text: #bcbcbc;
-   --primary: #363636;
-   --p-light: #efebe7;
+   --text-mute: #c9c9c9;
+   --text: #343434;
+   --primary: #EC1D24;
+   --p-light: #f9f2f0;
+   --p-dark: #c17a60;
    --secondary: #97A5AA;
    --s-light: #e6e8ea;
    --dark: #333333;
+
+   color: var(--text);
+
+   .active{ color: var(--p-dark); }
+}
+@keyframes enterRight {
+   from { transform: translateX(105vw); }
+   to { transform: translateX(0); }
 }

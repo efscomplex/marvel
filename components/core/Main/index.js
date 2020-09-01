@@ -1,13 +1,7 @@
-import styled from 'styled-components'
-export default function Main(){
+export default function Main({children, ...rest}){
    return (
-      <AppMain>
-         <p> Main Content goes here!</p>
-      </AppMain>
+      <main {...rest}>
+         {children}
+      </main>
    )
 }
-const AppMain = styled.main `
-   display: flex;
-   justify-content: center;
-   margin-top: 30%;
-`
